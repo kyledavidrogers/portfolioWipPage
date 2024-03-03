@@ -1,7 +1,6 @@
 html {
     height: 100%;
     margin: 0;
-    background-color: #171717;
 }
 
 body {
@@ -11,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #171717;
 }
 
 .logo-wrap {
@@ -54,7 +54,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    //height: 100vh;
 }
 
 .wip-wrap {
