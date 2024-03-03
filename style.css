@@ -23,6 +23,7 @@ body {
 h1 {
     font-weight: normal;
     text-align: center;
+    margin: 0;
 }
 
 .dot {
@@ -95,7 +96,7 @@ a {
 }
 
 .icon-wrap {
-    margin: auto;
+    margin: 0 auto 0 auto;
     display: flex;
     gap: 1.4em;
     margin-bottom: 1.5em;
