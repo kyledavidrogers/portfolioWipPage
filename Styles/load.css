@@ -8,7 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #101010;
+    background: rgba(23, 23, 23, 0.3);
+    backdrop-filter: blur(50px);
     z-index: 999;
   }
   
