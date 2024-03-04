@@ -10,6 +10,7 @@
     align-items: center;
     background: rgba(23, 23, 23, 0.3);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
     z-index: 999;
     border: 2px solid black;
   }
