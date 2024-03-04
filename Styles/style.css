@@ -38,6 +38,7 @@ p {
     margin-bottom: 1.5em;
     font-size: 15px;
     font-weight: normal;
+    line-height: 120%;
 }
 
 a {
@@ -91,7 +92,7 @@ a {
     background-color: #FF6A33;
     box-shadow: inset 0px 2px 4px 0px rgba(255, 255, 255, 0.4), 
                 0px 3px 0px 0px rgba(0, 0, 0, 1);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     border-color: white;
 }
 

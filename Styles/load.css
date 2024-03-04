@@ -11,19 +11,22 @@
     background: rgba(23, 23, 23, 0.3);
     backdrop-filter: blur(50px);
     z-index: 999;
+    border: 2px solid black;
   }
   
   #loading-bar-container {
     width: 200px;
-    height: 2px;
+    height: 4px;
     background-color: grey;
     margin: .8em 0;
+    border-radius: 1px;
   }
   
   #loading-bar {
     height: 100%;
-    background-color: white;
+    background-color: #FC5E00;
     width: 0%;
+    border-radius: 1px;
   }
   
   #loading-text, #loading-percentage {
