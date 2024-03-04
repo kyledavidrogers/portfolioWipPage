@@ -6,11 +6,15 @@ html {
 body {
     height: 100%;
     margin: 0;
+    background-color: #171717;
+}
+
+main {
+    height: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #171717;
 }
 
 .logo-wrap {
@@ -24,6 +28,7 @@ h1 {
     font-weight: normal;
     text-align: center;
     margin: 0;
+    letter-spacing: .5px;
 }
 
 .dot {
@@ -39,6 +44,7 @@ p {
     font-size: 1em;
     font-weight: normal;
     line-height: 130%;
+    letter-spacing: .1px;
 }
 
 a {
@@ -99,16 +105,17 @@ a {
 .icon-wrap {
     margin: 0 auto 0 auto;
     display: flex;
-    gap: 1.4em;
-    margin-bottom: 1.5em;
+    gap: 1em;
+    margin-bottom: 1em;
 }
 
 .social-link {
     transition: transform 0.3s ease;
+    padding: 4px;
 }
 
 .social-link:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 
   @media (max-width: 768px) {
