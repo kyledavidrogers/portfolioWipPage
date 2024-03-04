@@ -56,7 +56,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //height: 100vh;
 }
 
 .wip-wrap {
@@ -67,6 +66,7 @@ a {
 #pngSequence {
     width: 300px;
     height: auto;
+    margin-top: 1em;
 }
 
 .main-button {
@@ -124,5 +124,9 @@ a {
 
     .icon-wrap {
         margin-bottom: 1em;
+    }
+
+    #pngSequence {
+        margin-top: 0;
     }
   }
