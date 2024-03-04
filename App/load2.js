@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var loadingPercentage = document.getElementById('loading-percentage');
     var width = 0;
   
-    var loading = setInterval(frame, 40);
+    var loading = setInterval(frame, 30);
   
     function frame() {
       if (width >= 100) {
