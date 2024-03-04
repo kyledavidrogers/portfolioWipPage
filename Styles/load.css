@@ -10,7 +10,6 @@
     align-items: center;
     background-color: #101010;
     z-index: 999;
-    border-top: 1px solid #000;
   }
   
   #loading-bar-container {
